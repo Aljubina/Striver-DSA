@@ -7,7 +7,7 @@ int SearchInsert(vector<int> arr, int n , int x) {
 
     while(left <= right) {
         int mid = (left + right)/2;
-        if(arr[mid] > x) {
+        if(arr[mid] >= x) {
             ans = mid;
             right = mid-1;
         } else {
