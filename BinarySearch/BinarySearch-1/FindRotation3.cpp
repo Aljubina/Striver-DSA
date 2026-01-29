@@ -1,3 +1,5 @@
+//Time Complexity : O(logN)
+
 #include <bits/stdc++.h>
 using namespace std;
 
